@@ -1,0 +1,38 @@
+.mtnBackground{
+	background-image: url('../../public/img/mountain-bg.avif');
+	background-size: auto;
+	background-position-y: -100px ;
+	height: 600px;
+	padding-left: 200px;
+	padding-top:100px;
+}
+
+.scheduleBox{
+	background-color: white;
+	opacity: 75%;
+	width: 400px;
+	padding-left:20px;
+}
+
+.headerText{
+	color: #404f6c;
+	font-weight: bolder;
+	font-size: 1.7em;
+}
+
+.scheduleList{
+	display: flex;
+	flex-direction: column;
+}
+
+.monthBlock{
+	padding-bottom: 25px;
+	line-height: 0;
+}
+
+.schedItem{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: .8em;
+}

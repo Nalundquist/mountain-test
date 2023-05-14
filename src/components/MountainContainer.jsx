@@ -1,6 +1,7 @@
 import classes from "./MountainContainer.module.css";
 import { TopBar } from "./TopBar";
-import { SelectBar } from "./SelectBar";
+import { MountainBody } from "./MountainBody";
+import { Footer } from "./Footer";
 
 export const MountainContainer = () => {
 
