@@ -7,6 +7,8 @@ export const MountainContainer = () => {
 	return(
 		<div className={classes.container}>
 			<TopBar />
+			<MountainBody />
+			<Footer />
 		</div> 
 	)
 }

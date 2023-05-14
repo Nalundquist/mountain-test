@@ -2,6 +2,17 @@
 	background-color: #404f6c;
 	width: 100vw;
 	height: 45px;
+}
+
+.selectBlock{
 	display: flex;
+	position: relative;
+	top: -15px;
 	flex-direction: row;
+	padding-left: 17vw;
+}
+
+.mountainText{
+	color: #a0a7b6;
+	padding: 5px;
 }
