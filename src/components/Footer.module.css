@@ -1,0 +1,37 @@
+.footerContainer{
+	background-color: #404f6c;
+	color: #61759e;
+	font-weight: bolder;
+	height: 60px;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.footerLogo{
+	display: flex;
+	flex-direction: row;
+	width: 175px;
+}
+
+.logoCircle{
+	border-radius: 50%;
+	background-color: #61759e;
+	width: 35px;
+	height: 35px;
+	margin: 5px;
+	margin-top: 15px;
+}
+
+.laMountBlock{
+	display: flex;
+	flex-direction: column;
+	line-height: 0;
+}
+
+.copyright{
+	font-size: .5em; 
+	position: relative;
+	top: 15px
+}
