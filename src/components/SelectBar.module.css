@@ -1,0 +1,7 @@
+.barContainer{
+	background-color: #404f6c;
+	width: 100vw;
+	height: 45px;
+	display: flex;
+	flex-direction: row;
+}

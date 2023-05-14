@@ -1,9 +1,67 @@
 .blueBar{
-	background-color: blue;
-	height: 300px;
+	background-color: #404f6c;
+	height: 120px;
 	width: 100vw;
 }
 
 .whiteBar{
-	background-color: grey;
+	background-color: white;
+	height: 120px;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
+
+@media screen and (max-width: 768px){
+	.whiteBar{
+		height: 325px;
+		flex-direction: column;
+	}
+}
+
+.bigBlock{
+	display: flex;
+	flex-direction: row;
+}
+
+.bigNumber{
+	color: #a0a7b6;
+	font-size: 8em;
+	position: relative;
+	top: -120px;
+}
+
+@media screen and (max-width: 768px){
+	.bigNumber{
+		top: -25px;
+	}
+}
+
+.midText{
+	color: #404f6c;
+	position: relative;
+	font-size: 1.5em;
+	top: 28px;
+	left: -30px;
+}
+
+@media screen and (max-width: 768px){
+	.midText{
+		top: 125px;
+	}
+}
+.smallerText{
+	font-size: .8em;
+	width: 50vw;
+	position: relative;
+	top: 20px;
+}
+@media screen and (max-width: 768px){
+	.smallerText{
+		height: 220px;
+		flex-direction: column;
+		top: -120px;
+	}
+}
+
