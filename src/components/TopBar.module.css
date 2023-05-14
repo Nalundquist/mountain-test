@@ -1,0 +1,9 @@
+.blueBar{
+	background-color: blue;
+	height: 300px;
+	width: 100vw;
+}
+
+.whiteBar{
+	background-color: grey;
+}

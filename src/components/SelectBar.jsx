@@ -1,4 +1,4 @@
-import * as 'classes' from './SelectBar.module.css'
+import classes from './SelectBar.module.css'
 
 export const SelectBar = () => {
 	return(
