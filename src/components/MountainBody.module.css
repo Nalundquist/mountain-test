@@ -3,6 +3,7 @@
 	background-size: auto;
 	background-position-y: -100px ;
 	height: 600px;
+	min-height: 58%;
 	padding-left: 200px;
 	padding-top:100px;
 }
