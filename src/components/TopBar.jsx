@@ -1,7 +1,9 @@
 import classes from "./TopBar.module.css";
-import { SelectBar } from './SelectBar';
 
 export const TopBar = () => {
+
+
+
 	return (
 		<div>
 			<div className={classes.blueBar}></div>
@@ -12,7 +14,7 @@ export const TopBar = () => {
 				</div>
 				<p className={classes.smallerText}>Guis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
-			<SelectBar />
+			
 		</div>
 	)
 }

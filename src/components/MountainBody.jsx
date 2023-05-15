@@ -1,6 +1,9 @@
 import classes from "./MountainBody.module.css";
 
-export const MountainBody = () => {
+export const MountainBody = (props) => {
+
+	const { mountainView } = props;
+
 	return(
 		<div className={classes.mtnBackground}>
 			<div className={classes.scheduleBox}>
