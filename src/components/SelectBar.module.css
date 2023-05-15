@@ -2,27 +2,38 @@
 	background-color: #404f6c;
 	width: 100vw;
 	height: 45px;
+	padding-bottom: 10px;
+	z-index: 1;
 }
 
 .selectBlock{
 	display: flex;
-	position: relative;
-	top: -15px;
 	flex-direction: row;
 	padding-left: 17vw;
+	padding-bottom: 25px;
+	height: 100%;
 }
 
 .mountainText{
+	position: relative;
+	top: -10px;
 	color: #a0a7b6;
+	padding-bottom: 25px;
 	padding: 5px;
 	cursor: pointer;
 	height: 100%;
+	overflow: hidden;
 }
 
 .clickMountainText{
 	color: #404f6c;
+	position: relative;
+	top: -10px;
 	background-color: #a0a7b6;
 	text-decoration: underline;
 	padding: 5px;
+	padding-bottom: 25px;
 	cursor: pointer;
+	height: 100%;
+	overflow: hidden;
 }

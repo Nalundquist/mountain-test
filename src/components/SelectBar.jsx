@@ -1,28 +1,23 @@
 import classes from './SelectBar.module.css'
+import { useState } from 'react';
 
 export const SelectBar = (props) => {
 
 	const { setMountainView } = props;
 	
-	let mountainOneStyle = classes.mountainText;
-	let mountainTwoStyle = classes.mountainText;
+	const [mountainOneStyle, setMountainOneStyle] = useState(classes.mountainText);
+	const [mountainTwoStyle, setMountainTwoStyle] = useState(classes.mountainText);
 
 	const handleMountainOneClick = () => {
-		mountainOneStyle = classes.clickMountainText;
-		mountainTwoStyle = classes.mountainText;
+		setMountainOneStyle(classes.clickMountainText);
+		setMountainTwoStyle(classes.mountainText);
 		setMountainView("MountainOne");
-		console.log("mountain one click")
-		console.log(mountainOneStyle)
-		console.log(mountainTwoStyle)
 	}
 
 	const handleMountainTwoClick = () => {
-		mountainTwoStyle = classes.clickMountainText;
-		mountainOneStyle = classes.mountainText;
+		setMountainOneStyle(classes.mountainText);
+		setMountainTwoStyle(classes.clickMountainText);
 		setMountainView("MountainTwo");
-		console.log("mountain two click")
-		console.log(mountainOneStyle)
-		console.log(mountainTwoStyle)
 	}
 
 	return(
